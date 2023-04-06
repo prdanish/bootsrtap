@@ -1,0 +1,97 @@
+.header{
+    height: 60px !important;
+    border-bottom: 1PX solid gray;
+    position: fixed !important;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    height: 90%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100% !important;
+    padding-top: 5% !important;
+
+}
+
+.boxes{
+    height: 360px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img{
+    height: 190px !important;
+    width: 100% !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px;
+}
+.logo1{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+.general{
+    display: flex;
+    flex-direction: row;
+}
+.maintext{
+    font-weight: 700;
+    padding: 8px;
+}
+.general1{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.general1>p{
+    color: #606060;
+    font-weight: 500;
+}
+.general1>img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.views{
+    color: #606060;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.maintext{
+    font-weight: 700;
+    padding: 8px;
+}
+.general1{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.general1>p{
+    color: #606060;
+    font-weight: 500;
+}
+.general1>img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.views{
+    color: #606060;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-left: 50px;
+}
